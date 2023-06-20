@@ -1,5 +1,5 @@
 h1 {
-  color: #111;
+  color: #969b91;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -583,7 +583,7 @@ blockquote {
 }
 
 .project-images {
-  padding-bottom: 100vh;
+  padding-bottom: 0vh;
 }
 
 .project-inner-image {
@@ -613,6 +613,18 @@ blockquote {
 }
 
 .project-gallery-image {
+  width: 70vw;
+  height: 70vh;
+  outline-offset: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  outline: 3px #333;
+  overflow: auto;
+}
+
+/* Video Gallery Class */
+
+.project-gallery-video {
   width: 70vw;
   height: 70vh;
   outline-offset: 0px;
