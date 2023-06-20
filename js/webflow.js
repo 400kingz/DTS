@@ -12929,3 +12929,5 @@ Webflow.require('ix2').init(
 let vid = document.getElementById("myVideo");
 vid.autoplay = true;
 vid.load();
+
+// change the color of image-2 class when the page scrolls the about-us section into view
