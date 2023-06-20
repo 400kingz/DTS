@@ -685,14 +685,14 @@ blockquote {
 .about-section {
   width: 100vw;
   height: 100vh;
-  background-color: #1e3b53;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .paragraph-big {
-  color: #fff;
+  color: #333333;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 2em;
