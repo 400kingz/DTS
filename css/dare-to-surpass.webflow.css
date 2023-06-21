@@ -1030,3 +1030,14 @@ blockquote {
 
   }
 }
+
+.getstarted {
+  /* make all get started buttons on bottom of page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30%;
+  left: -30%;
+  z-index: 2;
+}
