@@ -121,15 +121,15 @@ blockquote {
 }
 
 .project-content-container {
-  width: 50vw;
-  height: 50vh;
+  width: 52vw;
+  height: 52vh;
   position: relative;
   overflow: visible;
 }
 
 .project-section {
   z-index: 10;
-  width: 50vw;
+  width: 52vw;
   height: 100vh;
   position: fixed;
   left: 50vw;
@@ -264,8 +264,8 @@ blockquote {
 
 .image-reveal {
   z-index: 20;
-  width: 50vw;
-  height: 50vh;
+  width: 52vw;
+  height: 52vh;
   max-width: 100vw;
   object-fit: cover;
   margin-left: auto;
@@ -279,8 +279,8 @@ blockquote {
 
 .project-image-container {
   z-index: 0;
-  width: 50vw;
-  height: 50vh;
+  width: 52vw;
+  height: 52vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -665,8 +665,8 @@ blockquote {
 
 .next-project-image {
   z-index: 0;
-  width: 50vw;
-  height: 50vh;
+  width: 52vw;
+  height: 52vh;
   opacity: 0;
   object-fit: cover;
   position: absolute;
@@ -793,7 +793,7 @@ blockquote {
 
   .project-content-container {
     width: 80vw;
-    height: 50vh;
+    height: 52vh;
   }
 
   .image {
@@ -820,7 +820,7 @@ blockquote {
 
   .image-container {
     width: 80vw;
-    height: 50vh;
+    height: 52vh;
   }
 
   .project-content-wrapper {
@@ -832,7 +832,7 @@ blockquote {
 
   .project-hero-headline.outline {
     width: 80vw;
-    font-size: 8em;
+    font-size: 6em;
   }
 
   .sticky-camera {
@@ -858,14 +858,14 @@ blockquote {
   }
 
   .next-project-link {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: -89px;
+    margin-right: -102px;
     font-size: 18vw;
   }
 
   .next-project-image {
     width: 80vw;
-    height: 50vh;
+    height: 52vh;
   }
 
   .container {
@@ -880,14 +880,19 @@ blockquote {
   }
 }
 
-/* add media query for mobile view logo */
-
-@media screen and (max-width: 479px) {
-  .image-2 {
-    /* overlay background color to image */
-    filter: invert(48%) sepia(13%) saturate(3187%) hue-rotate(180deg) brightness(150%) contrast(80%);
+@media (max-width: 810px) {
+  .about-section {
+    flex-wrap: wrap;
+  }
+  .about-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 127px;
+    text-align: center;
   }
 }
+
 
 #button {
   margin: 0 auto;
@@ -1025,8 +1030,13 @@ blockquote {
 
 /* media query for tablet and mobile websitebtn */
 @media screen and (max-width: 479px) {
+  .project-details {
+    margin-top: 0px;
+    max-width: 90%;
+  }
+
   .websitebtn {
-    position: relative;
+    position: sticky;
 
   }
 }
@@ -1041,3 +1051,11 @@ blockquote {
   left: -30%;
   z-index: 2;
 }
+
+/* media query for mobile altum */
+@media screen and (max-width: 479px) {
+  .image-2 {
+    width: 50%;
+  }
+}
+
