@@ -433,6 +433,7 @@ blockquote {
   font-size: 1em;
   line-height: 1;
   display: block;
+
 }
 
 .logo-text.outline {
@@ -443,6 +444,8 @@ blockquote {
 .logo-text.outline.thin {
   height: auto;
 }
+
+
 
 .logo-half-top {
   width: 100%;
@@ -858,7 +861,7 @@ blockquote {
   }
 
   .next-project-link {
-    margin-left: -89px;
+    margin-left: 30px;
     margin-right: -102px;
     font-size: 18vw;
   }
